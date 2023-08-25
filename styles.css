@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Norican&family=Raleway&display=swap');
+
+body{
+    background-image: url(Images/diwali-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center center;
+    min-height: 94vh;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: aqua;
+}
+.num-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 170px;
+}
+h1{
+    letter-spacing: 8px;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Norican', cursive;
+}
+h2{
+    color: hsl(0, 83%, 61%);
+    font-size: 48px;
+}
+h3{
+    margin: -30px;
+}
+.days-container, .hours-container, .min-container, .sec-container {
+    display: flex;
+    flex-direction: column;
+}
